@@ -1,0 +1,30 @@
+# NvChad / Neovim plugin cache
+lazy-lock.json
+plugin/
+site/
+pack/
+lua_lazy/
+
+# Session and state files
+session/
+shada/
+*.shada
+swap/
+*.swp
+*.swo
+*.tmp
+
+# Undo history
+undo/
+*.un~
+
+# Logs
+*.log
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# NvChad backup configs
+backup/
+*.bak
