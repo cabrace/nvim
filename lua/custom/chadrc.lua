@@ -1,7 +1,7 @@
 local M = {}
 
 M.ui = {
-  theme = "onedark", -- or your choice
+  theme = "material-deep-ocean", -- or your choice
 }
 
 M.plugins = "custom.plugins" -- points to your plugins.lua
