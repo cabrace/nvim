@@ -18,11 +18,12 @@ return {
     version = "*",
     event = "VeryLazy",
     config = function()
-      require("nvim-surround").setup({
-        keymaps = {
-          visual = "S",
-        },
-      })
+       require("custom.configs.nvim-surround")()
+      -- require("nvim-surround").setup({
+      --   keymaps = {
+      --     visual = "S",
+      --   },
+      -- })
     end,
   },
 
