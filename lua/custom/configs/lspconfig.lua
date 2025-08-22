@@ -5,7 +5,7 @@ local nvlsp = require "nvchad.configs.lspconfig"
 require("nvchad.configs.lspconfig").defaults()
 
 -- List of servers with default config
-local servers = { "html", "cssls", "astro", "svelte", "emmet_language_server", "ts_ls" }
+local servers = { "html", "cssls", "astro", "svelte", "emmet_language_server", "ts_ls", "marksman" }
 
 for _, lsp in ipairs(servers) do
   lspconfig[lsp].setup {
