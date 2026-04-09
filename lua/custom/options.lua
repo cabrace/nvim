@@ -12,11 +12,13 @@ local opt = vim.opt  -- shorthand
 
 -- Line numbers
 opt.number = true
-opt.relativenumber = true
+opt.relativenumber = false
 
 -- Tabs and indentation
-opt.tabstop = 2         -- number of spaces tabs count for
-opt.shiftwidth = 2      -- size of an indent
+vim.opt.autoindent = true
+vim.opt.smartindent = true
+opt.tabstop = 4         -- number of spaces tabs count for
+opt.shiftwidth = 4      -- size of an indent
 opt.expandtab = true    -- use spaces instead of tabs
 
 -- Search
