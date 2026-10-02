@@ -15,7 +15,7 @@ return {
 
   {
     "kylechui/nvim-surround",
-    version = "*",
+    version = "^3.0.0",
     event = "VeryLazy",
     config = function()
        require("custom.configs.nvim-surround")()
@@ -87,6 +87,7 @@ return {
 
   {
     "nvim-treesitter/nvim-treesitter",
+    lazy = false,
     build = ":TSUpdate", -- "run" is deprecated in lazy.nvim
     config = function()
       require "custom.configs.treesitter"
